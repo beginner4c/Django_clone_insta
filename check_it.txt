@@ -1,0 +1,5 @@
+# 패키지 설치 시
+pip freeze > requirements.txt 실행 필수
+
+# 다른 사람이 해당 클론 사용 시
+pip install -r requirements.txt
