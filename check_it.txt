@@ -3,3 +3,8 @@ pip freeze > requirements.txt 실행 필수
 
 # 다른 사람이 해당 클론 사용 시
 pip install -r requirements.txt
+
+# 가상 환경이 완성되어 장고 프로젝트를 만들 때
+pip install django
+pip freeze > requirements.txt
+django-admin startproject '[project_name]'
